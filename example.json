@@ -1,0 +1,70 @@
+{
+	"info": {
+		"_postman_id": "31be541e-e07d-4e12-85af-29e33dc04b22",
+		"name": "Cek ID Game",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "11543781"
+	},
+	"item": [
+		{
+			"name": "https://soft.getscore.my.id/games/api.php?target=aov&id1=4657889071",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "target",
+							"value": "genshin",
+							"type": "text"
+						},
+						{
+							"key": "id1",
+							"value": "809507431",
+							"type": "text"
+						},
+						{
+							"key": "id2",
+							"value": "os_asia",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://soft.getscore.my.id/game/api.php?target=mlbb&id1=1127784972&id2=13550",
+					"protocol": "https",
+					"host": [
+						"soft",
+						"getscore",
+						"my",
+						"id"
+					],
+					"path": [
+						"game",
+						"api.php"
+					],
+					"query": [
+						{
+							"key": "target",
+							"value": "mlbb",
+							"description": "aov, codm, ff, higgs, genshin, marvelwar, lol, mlbb, pubgm, ragnarokm, sausageman, valorant"
+						},
+						{
+							"key": "id1",
+							"value": "1127784972",
+							"description": "id atau username game"
+						},
+						{
+							"key": "id2",
+							"value": "13550",
+							"description": "Sifatnya opsional khusus genshin, mlbb, ragnarokm"
+						}
+					]
+				},
+				"description": "cek id game"
+			},
+			"response": []
+		}
+	]
+}
